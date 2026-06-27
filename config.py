@@ -6,3 +6,5 @@ headers = {
         'Connection': 'keep-alive',
     }
 url ='https://www.x-kom.pl'
+sale_end = '9:59'
+sale_start = '10:01'

@@ -1,7 +1,7 @@
-from scraper import scrape
+from storage import load_data
 
 def main():
-    scrape()
+    print(load_data())
 
 
 if __name__ == "__main__":
