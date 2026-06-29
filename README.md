@@ -1,1 +1,2 @@
 # HotShot
+yes
