@@ -1,2 +1,3 @@
 # HotShot
 yes
+and yes
