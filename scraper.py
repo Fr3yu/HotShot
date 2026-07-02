@@ -17,7 +17,9 @@ def scrape():
         "name": name,
         "actual_price": price,
         "price_before": price_before,
+        #"diff": (float(price_before) - float(price)) / float(price_before) * 100,
         "remaining": remaining,
         "sold": sold,
-        "percentage_of_sales": int(sold) / (int(sold) + int(remaining)) * 100
+        "amount": int(remaining) + int(sold),
+        "percentage_of_sales": round(int(sold) / (int(sold) + int(remaining)) * 100, 2)
     }
