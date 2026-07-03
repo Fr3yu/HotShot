@@ -25,7 +25,7 @@ def sale_started():
     )
 
 def main():
-    schedule.every().day.at("9:59").do(sale_ended)
+    schedule.every().day.at("09:59").do(sale_ended)
     schedule.every().day.at("10:01").do(sale_started)
     schedule.every().day.at("21:59").do(sale_ended)
     schedule.every().day.at("22:01").do(sale_started)
